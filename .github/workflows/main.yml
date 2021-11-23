@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@main
+        uses: actions/checkout@@master
 
       - name: buildAndDeploy
-        uses: JamesIves/github-pages-deploy-action@main
+        uses: JamesIves/github-pages-deploy-action@@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKENS }}
           BRANCH: main #存放产物分支名称
