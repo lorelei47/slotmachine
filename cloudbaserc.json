@@ -1,0 +1,19 @@
+{
+    "envId": "cloud1-4gaxgrnr076ff99a",
+    "version": "2.0",
+    "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+    "functionRoot": "./functions",
+    "functions": [],
+    "framework": {
+        "name": "slotmachine",
+        "plugins": {
+            "vue": {
+                "use": "@cloudbase/framework-plugin-website",
+                "inputs": {
+                    "buildCommand": "y",
+                    "outputPath": "dist"
+                }
+            }
+        }
+    }
+}
