@@ -16,6 +16,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v2
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKENS }}
+          BASE_BRANCH: main
           BRANCH: gh-pages #存放产物分支名称
           FOLDER: dist # 存放build后的目录
           BUILD_SCRIPT: npm install && npm run build #执行的命令
